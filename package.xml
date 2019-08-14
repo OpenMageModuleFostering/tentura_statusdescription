@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>Tentura_Statusdescription</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension will give you possibility add descriptions to Order Statuses.</summary>
+    <description>In Magento existed possibility to change order status inside of order, and add some custom text, for notify customer about new status.&#xD;
+&#xD;
+Our extension will give you a way, pre-define texts for this messages.&#xD;
+This will allow you to save a lot of time, and do not write same messages to users again and again.&#xD;
+&#xD;
+Also extension allow you to user order variables, which will be automatically replaced to values. (For example: {{customer_lastname}}, {{customer_firstname}}, and so on.)&#xD;
+&#xD;
+</description>
+    <notes>First version of extension</notes>
+    <authors><author><name>Tentura Team</name><user>tentura</user><email>info@tentura.eu</email></author></authors>
+    <date>2012-10-13</date>
+    <time>18:31:12</time>
+    <contents><target name="magecommunity"><dir name="Tentura"><dir name="Statusdescription"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="Status"><dir name="Edit"><file name="Form.php" hash="f43924371c725860b1ef93533cf6edf3"/></dir><dir name="New"><file name="Form.php" hash="6a471990483c47461ea812d08587ad27"/></dir></dir></dir></dir></dir></dir><dir name="Controller"><file name="Observer.php" hash="30bd933ae9836a4040042e211c7830e4"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="StatusController.php" hash="938131c85be3fe9d59f044c9d7c8bcaf"/></dir><dir name="Sales"><file name="OrderController.php" hash="4ba422055169568e85aaf1fa80980435"/></dir><file name=".DS_Store" hash="e4c60e8f0e5d9209a00801f997909fe7"/></dir><dir name="etc"><file name="config.xml" hash="8eb39555fc09e0ed1aaf873bb581e3c7"/><file name="system.xml" hash="21639a971010a9eec8470d2f6e28cf4a"/></dir><dir name="sql"><dir name="statusdescription_setup"><file name="mysql4-install-0.1.0.php" hash="4d27ad6ab07d6d2169a5c61c674ffac8"/></dir></dir><file name=".DS_Store" hash="26e932f1219a37599354d6d142605cd8"/></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="custom"><dir name="template"><dir name="sales"><dir name="order"><dir name="view"><file name="history.phtml" hash="3245451a60703ad4a0bc6339eb7f118d"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tentura_Statusdescription.xml" hash="79291b30cead219989d18597d6a04e86"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.4.7</max></php></required></dependencies>
+</package>

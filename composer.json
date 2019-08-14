@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Tentura_Statusdescription",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License",
+    "homepage": "",
+    "description": "Extension will give you possibility add descriptions to Order Statuses.",
+    "authors": [
+    {
+        "name": "Tentura Team",
+        "email": "info@tentura.eu"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
